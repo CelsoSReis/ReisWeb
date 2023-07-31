@@ -1,2 +1,2 @@
 # ReisWeb
-Site para demonstrar projetos desenvolvidos para portfólio.
+Projetos desenvolvidos para Portfolio.
