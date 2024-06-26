@@ -189,11 +189,11 @@ Circles.create({
 	styleText:    true
 })
 
-//Notify
+/*Notify
 $.notify({
 	icon: 'icon-bell',
 	title: 'Kaiadmin',
-	message: 'Premium Bootstrap 5 Admin Dashboard',
+	message: 'Premium Bootstrap 5 Admin ',
 },{
 	type: 'secondary',
 	placement: {
@@ -201,7 +201,7 @@ $.notify({
 		align: "right"
 	},
 	time: 1000,
-});
+});*/
 
 // Jsvectormap
 var world_map = new jsVectorMap({
