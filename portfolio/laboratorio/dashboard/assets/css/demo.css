@@ -1,3 +1,8 @@
+.span-menu {
+  overflow: hidden;
+  align-content:space-between;
+}
+
 .gg-check {
   box-sizing: border-box;
   position: relative;
@@ -20,7 +25,6 @@
     border-style: solid;
     transform-origin: bottom left;
     transform: rotate(45deg); }
-
 .custom-template {
   position: fixed;
   top: 50%;

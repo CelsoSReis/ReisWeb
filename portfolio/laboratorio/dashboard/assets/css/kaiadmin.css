@@ -89,7 +89,6 @@ body, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, 
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: 'Public Sans', sans-serif; }
-
 body, html {
   font-size: 14px;
   color: #2A2F5B; }
@@ -99,7 +98,6 @@ a {
   text-decoration: none !important; }
   a:hover, a:focus {
     color: #1269DB; }
-
 h1,
 .h1 {
   font-size: 2.15rem; }
