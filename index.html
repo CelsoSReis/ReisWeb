@@ -17,7 +17,7 @@
     :root{
       --bg:#0b0b0d;
       --panel:#0f1113;
-      --muted:#9aa4ad;
+      --muted:#717477;
       --accent:#ff6b6b;
       --glass: rgba(255,255,255,0.03);
     }
@@ -83,6 +83,8 @@
       padding:1rem;
       border-radius:12px;
     }
+
+    .text--muted { color:var(--muted) !important; }
     .case-card img { border-radius:8px; display:block; width:100%; height:220px; object-fit:cover; }
 
     /* Services grid */
@@ -90,7 +92,7 @@
       background:var(--panel);
       border-radius:10px;
       padding:1.2rem;
-      border:1px solid rgba(255,255,255,0.03);
+      border:1px solid rgba(146, 140, 140, 0.03);
     }
 
     /* Clients */
@@ -174,10 +176,10 @@
       </div>
     </div>
 
-    <div class="bg-words">BOMB</div>
+    <div class="bg-words">Celso Reis</div>
   </header>
 
-  <!-- PORTFOLIO CAROUSEL 
+  <!-- PORTFOLIO CAROUSEL--> 
   <section id="work" class="py-5">
     <div class="container">
       <div class="d-flex align-items-center justify-content-between mb-4">
@@ -187,41 +189,41 @@
 
       <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4500">
         <div class="carousel-inner">
-          <!-- slide 1 
+          <!-- slide 1 -->
           <div class="carousel-item active">
             <div class="row g-3">
               <div class="col-md-4">
                 <div class="case-card">
-                  <img src="https://via.placeholder.com/600x400.png?text=Projeto+1" alt="">
-                  <h5 class="mt-3">Loovi — Identidade</h5>
-                  <p class="text-muted small mb-0">Branding completo para solução de seguros digitais.</p>
+                  <img src="assets/img/portfolio/rw.png" alt="">
+                  <h5 class="mt-3">ReisW sistemas</h5>
+                  <p class="text--muted small mb-0">Site Institucional para empresa ReisWeb Sistemas</p>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="case-card">
-                  <img src="https://via.placeholder.com/600x400.png?text=Projeto+2" alt="">
-                  <h5 class="mt-3">Itatiaia — Reposicionamento</h5>
-                  <p class="text-muted small mb-0">Atualização de identidade e conteúdo digital.</p>
+                  <img src="assets/img/portfolio/lclab.png" alt="">
+                  <h5 class="mt-3">LcLAB — Exames Clínicos</h5>
+                  <p class="text--muted small mb-0">Automação para Laboratórios de Exames Clínicos.</p>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="case-card">
-                  <img src="https://via.placeholder.com/600x400.png?text=Projeto+3" alt="">
-                  <h5 class="mt-3">Marca X — Website</h5>
-                  <p class="text-muted small mb-0">Website responsivo com foco em conversão e UX.</p>
+                  <img src="assets/img/portfolio/igrejas.png" alt="">
+                  <h5 class="mt-3">Rw Igrejas — Gestão de Igrejas</h5>
+                  <p class="text--muted small mb-0">Sistema Desenvolvido para Gestão de Igrejas</p>
                 </div>
               </div>
             </div>
-          </div>-->
+          </div>
 
           <!-- slide 2 (replicar ou adicionar mais)
           <div class="carousel-item">
             <div class="row g-3">
               <div class="col-md-4">
                 <div class="case-card">
-                  <img src="https://via.placeholder.com/600x400.png?text=Projeto+4" alt="">
-                  <h5 class="mt-3">Campanha Y</h5>
-                  <p class="text-muted small mb-0">Campanha digital com performance e criativo.</p>
+                  <img src="assets/img/portfolio/rw.png" alt="">
+                  <h5 class="mt-3">ReisW sistemas</h5>
+                  <p class="text-muted small mb-0">Site Institucional para empresa ReisWeb Sistemas</p>
                 </div>
               </div>
               <div class="col-md-4">
@@ -239,10 +241,10 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>--
+          </div>-->
+        </div>
 
-        <!-- controls
+        <!-- controls 
         <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Anterior</span>
@@ -250,10 +252,10 @@
         <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Próximo</span>
-        </button>
+        </button>-->
       </div>
     </div>
-  </section>-->
+  </section>
 
   <!-- SERVICES 
   <section id="services" class="py-5 bg-dark">
@@ -317,7 +319,7 @@
       <div class="row g-4 justify-content-center">
         <div class="col-lg-6">
           <h4>Fale comigo</h4>
-          <p class="text-muted small">Deixe seus dados e descreva o projeto - Orçamento em até 48h úteis.</p>
+          <p class="text--muted small">Deixe seus dados e descreva o projeto - Orçamento em até 48h úteis.</p>
 
           <form id="contactForm" class="mt-3" onsubmit="handleForm(event)">
             <div class="mb-3">
@@ -347,11 +349,11 @@
         <div class="col-lg-4">
           <div class="p-4" style="background:var(--panel); border-radius:10px;">
             <h6>Contato</h6>
-            <p class="text-muted small mb-1">Goiânia • Brasil</p>
-            <p class="text-muted small mb-0">celsosr87@gmail.com</p>
+            <p class="text--muted small mb-1">Goiânia • Brasil</p>
+            <p class="text--muted small mb-0">celsosr87@gmail.com</p>
             <hr class="my-3" style="border-color:rgba(255,255,255,0.03)">
             <h6>Serviços</h6>
-            <ul class="list-unstyled text-muted small mb-0">
+            <ul class="list-unstyled text--muted small mb-0">
               <li>Web & Apps</li>
             </ul>
           </div>
@@ -366,7 +368,7 @@
       <div class="row align-items-center">
         <div class="col-md-6">
           <strong>Celso Reis</strong>
-          <div class="small text-muted">Analista de Sistemas</div>
+          <div class="small text--muted">Analista de Sistemas</div>
         </div>
         <div class="col-md-6 text-md-end">
           <small>&copy; <span id="yr"></span> Celso Reis. Todos os direitos reservados.</small>
