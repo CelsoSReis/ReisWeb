@@ -15,7 +15,7 @@
 
   <style>
     :root{
-      --bg:#0b0b0d;
+      --bg:#272726;
       --panel:#0f1113;
       --muted:#717477;
       --accent:#ff6b6b;
@@ -138,16 +138,17 @@
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-transparent py-3">
     <div class="container">
-      <a class="navbar-brand text-white" href="#">Celso<span style="color:var(--accent)"> Reis</span></a>
+      <img src="assets/img/celsoreis.png" alt="Celso Reis desenvolvedor backend" width="250">
+      <!--<a class="navbar-brand text-white" href="#">Celso<span style="color:var(--accent)"> Reis</span></a>-->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navMain">
         <ul class="navbar-nav ms-auto align-items-lg-center">
-          <li class="nav-item"><a class="nav-link" href="#work">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#services">Sobre mim</a></li>
-          <li class="nav-item"><a class="nav-link" href="#clients">Portfólio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfólio</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
         </ul>
       </div>
@@ -163,7 +164,7 @@
           <p class="subhead">"Backend sólido, código limpo e performance real usando Python."</p>
           <div class="d-flex gap-2">
             <a href="#contact" class="btn btn-lg btn-outline-light">Solicitar orçamento</a>
-            <a href="#work" class="btn btn-lg btn-light text-dark">Ver projetos</a>
+            <a href="#portfolio" class="btn btn-lg btn-light text-dark">Ver projetos</a>
           </div>
         </div>
 
@@ -180,7 +181,7 @@
   </header>
 
   <!-- PORTFOLIO CAROUSEL--> 
-  <section id="work" class="py-5">
+  <section id="portfolio" class="py-5">
     <div class="container">
       <div class="d-flex align-items-center justify-content-between mb-4">
         <h3 class="mb-0">Projetos recentes</h3>
@@ -215,44 +216,6 @@
               </div>
             </div>
           </div>
-
-          <!-- slide 2 (replicar ou adicionar mais)
-          <div class="carousel-item">
-            <div class="row g-3">
-              <div class="col-md-4">
-                <div class="case-card">
-                  <img src="assets/img/portfolio/rw.png" alt="">
-                  <h5 class="mt-3">ReisW sistemas</h5>
-                  <p class="text-muted small mb-0">Site Institucional para empresa ReisWeb Sistemas</p>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="case-card">
-                  <img src="https://via.placeholder.com/600x400.png?text=Projeto+5" alt="">
-                  <h5 class="mt-3">Produto Z — Embalagem</h5>
-                  <p class="text-muted small mb-0">Design de embalagem com shelf-appeal.</p>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="case-card">
-                  <img src="https://via.placeholder.com/600x400.png?text=Projeto+6" alt="">
-                  <h5 class="mt-3">App Mobile</h5>
-                  <p class="text-muted small mb-0">UI/UX e prototipação para app consumer.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
--->
-        <!-- controls 
-        <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Próximo</span>
-        </button>-->
       </div>
     </div>
   </section>
@@ -297,21 +260,20 @@
     </div>
   </section>-->
 
-  <!-- CTA STRIP 
+  <!-- CTA STRIP -->
   <section class="py-4">
     <div class="container">
       <div class="cta-strip">
         <div>
-          <h5 class="mb-1">Pronto para iniciar sua missão?</h5>
-          <p class="mb-0 text-muted small">Vamos conversar sobre o seu desafio e montar um plano criativo.</p>
-        </div>
-        <div class="d-flex gap-2">
-          <a href="#contact" class="btn btn-outline-light">Convocar equipe</a>
-          <a href="https://api.whatsapp.com/send?phone=55XXXXXXXXXXX&text=Ol%C3%A1%20%2C%20gostaria%20de%20um%20or%C3%A7amento" class="btn btn-success">WhatsApp</a>
+          <h3 class="mb-3">Sobre mim</h3>
+         <h5> Graduado em Análise e Desenvolvimento de Sistemas, Iniciei minha carreira como desenvolvedor em 2022, quando tive a oportunidade de desenvolver um sistema em php que atendesse as demandas administrativas de uma instituição em que eu fazia parte.
+          Atuo como desenvolvedor backend, e ao longo de minha jornada venho desenvolvendo algumas aplicações web utilizando a linguagem python e o framework Django sempre buscando novos aprendizados, soluções inovadoras e eficientes.
+          Busco oportunidades desafiadoras em empresas inovadoras que valorizem o desenvolvimento de software de alta qualidade acompanhando as últimas tendências em tecnologia e desenvolvimento web.
+          </h5>
         </div>
       </div>
     </div>
-  </section>--->
+  </section>
 
   <!-- CONTACT -->
   <section id="contact" class="py-5 bg-black">
@@ -391,7 +353,6 @@
 
     function handleForm(e){
       e.preventDefault();
-      // simulação de envio: substitua por fetch() para seu backend
       alert('Enviado com sucesso!');
       e.target.reset();
     }
