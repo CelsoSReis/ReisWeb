@@ -90,18 +90,6 @@ h1, h2, h3, h4, .navbar-brand {
     font-size: 3.5em; 
 }
 
-/* Floating WhatsApp */
-    .whatsapp-fab{
-      position:fixed;
-      right:1.2rem;
-      bottom:1.2rem;
-      z-index:1100;
-      width:56px;height:56px;border-radius:50%;
-      display:flex;align-items:center;justify-content:center;
-      background:linear-gradient(180deg,#25D366,#128C7E);
-      box-shadow:0 8px 24px rgba(0,0,0,0.45);
-      color:white;font-size:1.4rem;
-    }
 
 /* Media Query para telas menores */
 @media (min-width: 992px) {
@@ -112,5 +100,42 @@ h1, h2, h3, h4, .navbar-brand {
     }
     .page-section {
         padding: 6rem 0;
+    }
+}
+
+/* Estilo para o Botão Fixo do WhatsApp */
+.whatsapp-float {
+    position: fixed; /* Fixa o elemento na tela */
+    width: 50px;
+    height: 50px;
+    bottom: 40px; /* Distância do fundo */
+    right: 40px; /* Distância da direita */
+    background-color: #25d366; /* Cor verde do WhatsApp */
+    color: #fff; /* Cor do ícone */
+    border-radius: 50px; /* Transforma em círculo */
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.4); /* Sombra para destaque */
+    z-index: 1000; /* Garante que fique acima de outros elementos */
+    display: flex; /* Para alinhar o ícone vertical e horizontalmente */
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease; /* Transição suave para o hover */
+    text-decoration: none;
+}
+
+.whatsapp-float:hover {
+    background-color: #1DA851; /* Cor um pouco mais escura no hover */
+    color: #fff; /* Mantém a cor do ícone branca */
+}
+
+/* Ajuste para telas menores (opcional, para não ficar muito grande) */
+@media (max-width: 768px) {
+    .whatsapp-float {
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        right: 20px;
+        font-size: 25px;
     }
 }
