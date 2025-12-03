@@ -62,7 +62,7 @@ h1, h2, h3, h4, .navbar-brand {
     padding-top: 6rem;
     padding-bottom: 6rem;
     /* Fundo com imagem e sobreposição de cor escura */
-    background: linear-gradient(to bottom, rgba(33, 37, 41, 0.7) 0%, rgba(33, 37, 41, 0.9) 100%), url('background-dev.jpg'); 
+    background: linear-gradient(to bottom, rgba(33, 37, 41, 0.8) 0%, rgba(33, 37, 41, 1.0) 85%), url('../img/portfolio/background-dev.jpg'); 
     /* Coloque uma imagem de fundo bonita (e.g., código, servidor, terminal) e chame de 'background-dev.jpg' */
     background-position: center;
     background-repeat: no-repeat;
@@ -78,7 +78,7 @@ h1, h2, h3, h4, .navbar-brand {
 
 /* Cor do fundo da seção de habilidades para contraste */
 .bg-secondary {
-    background-color: #6c757d !important; /* Exemplo de um cinza mais suave */
+    background-color: #1f2225 !important; /* Exemplo de um cinza mais suave */
 }
 
 /* Cartões de Projeto com efeito hover */
@@ -114,7 +114,7 @@ h1, h2, h3, h4, .navbar-brand {
     height: 50px;
     bottom: 40px; /* Distância do fundo */
     right: 40px; /* Distância da direita */
-    background-color: #25d366; /* Cor verde do WhatsApp */
+    background-color: #1db354; /* Cor verde do WhatsApp */
     color: #fff; /* Cor do ícone */
     border-radius: 50px; /* Transforma em círculo */
     text-align: center;
@@ -143,3 +143,4 @@ h1, h2, h3, h4, .navbar-brand {
         font-size: 25px;
     }
 }
+
