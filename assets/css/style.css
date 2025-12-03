@@ -38,6 +38,10 @@ h1, h2, h3, h4, .navbar-brand {
     color: #E75422;
 }
 
+.icon-git {
+    font-size: 18px;
+}
+
 /* Estilo do botão "Saiba Mais" (Hero Section) */
 .btn-brand-primary {
     background-color: var(--brand-primary);
